@@ -1,0 +1,18 @@
+[package]
+name = "anime"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+generational-arena = "0.2"
+gloo = "0.3"
+lazy_static = "1"
+palette = "0.6"
+paste = "1"
+regex = "1"
+thiserror = "1"
+wasm-bindgen = "0.2"
+web-sys = { version = "0.3", features = ["Window", "Document", "Element", "HtmlCollection", "Node", "NodeList", "HtmlElement", "CssStyleDeclaration", "EventTarget"]}
+
+[features]
+animation-futures = []
